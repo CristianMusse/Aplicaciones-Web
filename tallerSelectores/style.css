@@ -1,0 +1,13 @@
+p{
+    background-color: aqua;
+}
+h2{
+    font-size:50px;
+}
+.destacado{
+    background-color: yellow;
+}
+#miElemento{
+    border: 2px solid red;
+    font-style: italic;
+}

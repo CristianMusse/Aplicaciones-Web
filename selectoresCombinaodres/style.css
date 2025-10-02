@@ -1,0 +1,13 @@
+section p{/*Elemento descendiente*/
+    color: purple;
+}
+section >p{/*Elemento hijo directo */
+    color: orange;
+
+}
+a+a{/*Elemento adyancente */
+    color: red;
+}
+li~li{
+    color: blue;
+}
