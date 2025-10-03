@@ -1,0 +1,5 @@
+ul p{
+    position: sticky;
+    background-color: aqua;
+    top: 10%;
+}
