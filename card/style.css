@@ -12,16 +12,19 @@ section{
     box-shadow: black 1px 1px 2px;
     border-style: solid;
     border-color: yellow;
+    border-width: 8px;
     
 }
 .card img{
     width: 250px;
-    height: 40%;
+    height: 55%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
     border-color: yellow;
+    border-radius: 8px;
+    border-width: 6px;
 
     
 }
@@ -29,39 +32,55 @@ section{
     text-align: left;
     color: rgb(3, 3, 3);
     font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 1px;
+    margin-left: 18px;
 
     }
 
 .card p{
     text-align: left;
+    transition: color 200ms;
 
 }
 .card h1{
     text-align: right;
     color: red;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -4px;
+    margin-right: 15px;
 }
 .card p:nth-child(2){
     color: black;
-    
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 18px;
+    font-size: 20px;  
 }
-.card p:hover{
+.card p:hover,
+.card h6:hover,
+.card h1:hover{
     color: gray;
+    transition: color 200ms;
 }
+
 .card p:nth-child(5){
-    color: rgb(103, 104, 103);
+    color: black;
     background-color: yellow;
-    border-style: solid;
-    border-color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
     border-radius: 10px;
     width: 280px;
-    height: 50px;
+    height: 55px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 
 }
 .card p:nth-child(6){
-    color: rgb(103, 104, 103);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 body{
