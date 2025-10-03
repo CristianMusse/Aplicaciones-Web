@@ -1,0 +1,73 @@
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 290px;
+    height: 450px;
+    background-color: rgba(206, 207, 198, 0.986);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: black 1px 1px 2px;
+    border-style: solid;
+    border-color: yellow;
+    
+}
+.card img{
+    width: 250px;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: yellow;
+
+    
+}
+.card h6{
+    text-align: left;
+    color: rgb(3, 3, 3);
+    font-family: 'Courier New', Courier, monospace;
+
+    }
+
+.card p{
+    text-align: left;
+
+}
+.card h1{
+    text-align: right;
+    color: red;
+}
+.card p:nth-child(2){
+    color: black;
+    
+}
+.card p:hover{
+    color: gray;
+}
+.card p:nth-child(5){
+    color: rgb(103, 104, 103);
+    background-color: yellow;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 10px;
+    width: 280px;
+    height: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.card p:nth-child(6){
+    color: rgb(103, 104, 103);
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
